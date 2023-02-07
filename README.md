@@ -7,9 +7,11 @@ The program writes to the output a description of the tokens it recognizes in it
  It will use a lexical analyzer - the function (yylex) - written by flex. The yylex interface will return a number indicating the type of token it found. In case the token has a semantic value, it will write it to the global variable yylval which will be defined as union.
 
 ##### `input` 
-> test_airport.txt file
-The input includes information about outgoing flights.
 ---
+> test_airport.txt file
+
+The input includes information about outgoing flights.
+
 ```
 <departures>
   
@@ -24,11 +26,6 @@ OP78 05:37a.m. "Athens" freight
 AA17 11:00a.m. "LAX"
   
  ```
-
-##### `Output` 
---- 
-<img width="1123" alt="Screenshot 2023-02-08 at 0 58 07" src="https://user-images.githubusercontent.com/72464761/217385978-07a93225-3e8d-46c4-9cc5-dd15d4624bd4.png">
-
 #### `A list of the types of tokens that the lexical analyzer should recognize.`
 --- 
 | example for lexeme | Token Type |
@@ -39,6 +36,12 @@ AA17 11:00a.m. "LAX"
 | “JFK” “Charles de Gaulle”| AIRPORT |
 | cargo | CARGO |
 | freight | FREIGHT |
+
+
+##### `Output` 
+--- 
+<img width="1123" alt="Screenshot 2023-02-08 at 0 58 07" src="https://user-images.githubusercontent.com/72464761/217385978-07a93225-3e8d-46c4-9cc5-dd15d4624bd4.png">
+
 
 ##### `Steps for running the program` 
 ---
