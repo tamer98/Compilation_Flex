@@ -43,7 +43,7 @@ AA17 11:00a.m. "LAX"
 <img width="1123" alt="Screenshot 2023-02-08 at 0 58 07" src="https://user-images.githubusercontent.com/72464761/217385978-07a93225-3e8d-46c4-9cc5-dd15d4624bd4.png">
 
 
-##### `Steps for running the program` 
+##### `Steps for running the program` (in Ubuntu)
 ---
  ```
 1. flex airport.lex 
